@@ -1,0 +1,26 @@
+.layout {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+.layout .content {
+  padding: 1rem;
+}
+.layout .content h1 {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.layout .content h3 {
+  margin-bottom: 1rem;
+}
+.layout .content p {
+  line-height: 1.2;
+  margin-bottom: 0.8rem;
+}
+
+.layout .container {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  background: wheat;
+}
