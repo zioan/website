@@ -3,3 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background: rgb(30, 30, 30);
+  color: rgb(226, 226, 226);
+}
+
+li,
+a {
+  color: rgb(226, 226, 226);
+  cursor: pointer;
+}

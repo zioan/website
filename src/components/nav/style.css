@@ -1,20 +1,49 @@
 .nav {
+  background: rgb(37, 37, 38);
+  padding: 0;
+  /* height: auto; */
+  border-bottom: 1px rgb(68, 68, 68) solid;
+}
+
+.nav-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background: red;
-  padding: 0rem 2rem;
+  align-items: flex-end;
+  margin: 0 auto;
+  width: 1024px;
+}
+
+.nav h1 {
+  color: white;
+  cursor: pointer;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 0.4rem 2rem;
 }
 
 .nav ul {
   list-style: none;
   text-decoration: none;
   display: flex;
+  margin: 0.2rem;
+  font-size: 1.2rem;
 }
 
 .nav ul li {
-  padding: 0.5rem 1rem;
-  border: none;
   margin: 1rem 0.8rem 0 0.8rem;
-  background: white;
+  /* background: rgb(45, 45, 45); */
+}
+
+.nav ul li:last-child {
+  margin-right: 0;
+}
+
+.normal {
+  background: none;
+}
+
+.nav ul .active {
+  background: rgb(30, 30, 30);
 }

@@ -1,7 +1,8 @@
 .sidebar {
   float: right;
-  background: rgb(253, 247, 237);
+  background: rgb(37, 37, 38);
   padding: 2rem 1rem;
   width: 300px;
   height: 70vh;
+  border-left: 1px rgb(68, 68, 68) solid;
 }

@@ -4,6 +4,7 @@
 }
 
 .layout .content {
+  width: 724px;
   padding: 1rem;
 }
 .layout .content h1 {
@@ -22,5 +23,6 @@
   margin: 3rem 0;
   display: flex;
   justify-content: space-between;
-  background: wheat;
+  background: rgb(30, 30, 30);
+  border: 1px rgb(68, 68, 68) solid;
 }

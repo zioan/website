@@ -1,19 +1,33 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "./style.css";
 
 export default function Nav() {
   return (
     <div className="nav">
-      <h1>My Site</h1>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About Us</Link>
-        </li>
-      </ul>
+      <div className="nav-container">
+        <a href="/">
+          <h1>My Site</h1>
+        </a>
+
+        <ul>
+          <li>
+            <NavLink exact to="/" activeClassName="active" className="normal">
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              exact
+              to="/about"
+              activeClassName="active"
+              className="normal"
+            >
+              About Us
+            </NavLink>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
